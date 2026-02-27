@@ -1,0 +1,37 @@
+{
+  "name": "claude-vs-claude",
+  "version": "1.0.0",
+  "description": "Two Claude instances debate code architecture decisions. You pose a question, they argue, a judge decides.",
+  "type": "module",
+  "bin": {
+    "claude-vs-claude": "./bin/debate.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node bin/debate.js",
+    "test": "node bin/debate.js --help"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "ora": "^8.2.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "claude",
+    "ai",
+    "debate",
+    "architecture",
+    "adr",
+    "anthropic"
+  ],
+  "author": "NickCirv",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NickCirv/claude-vs-claude"
+  }
+}
