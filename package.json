@@ -9,7 +9,7 @@
   "main": "./src/index.js",
   "scripts": {
     "start": "node bin/debate.js",
-    "test": "node bin/debate.js --help"
+    "test": "node --test"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.39.0",
@@ -18,7 +18,7 @@
     "ora": "^8.2.0"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
   "keywords": [
     "claude",
